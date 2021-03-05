@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dangkyhocvien</title>
+    <style>
+        table {
+            height: 350px;
+            width: 450px;
+            background-color:lightyellow;
+        }
+        .op {
+            color: blue;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <table>
+       <form>
+            <tr>
+                <td colspan="5" style="color: blue; text-align: center" bgcolor="#add8e6"><b>ĐĂNG KÝ HỌC VIÊN</b></td>
+            </tr>
+            <tr>
+                <td class="op">Họ và tên</td>
+                <td colspan="4">
+                    <input type="text" name="name" size="20">
+                </td>
+            </tr>
+            <tr>
+                <td class="op">Ngày sinh</td>
+                <td colspan="4"><input type="text" name="date" size="10"></td>
+            </tr>
+            <tr>
+                <td class="op">Giới tính</td>
+                <td style="text-align: right;"><input type="radio" name="sex1"></td>
+                <td>Nam</td>
+                <td style="text-align: right"><input type="radio" name="sex2"></td>
+                <td>Nữ</td>
+            </tr>
+            <tr>
+                <td class="op">Địa chỉ</td>
+                <td colspan="4"><textarea rows="3" cols="25"></textarea> </td>
+            </tr>
+            <tr>
+                <td class="op">Lớp</td>
+                <td colspan="4">
+                    <select>
+                        <option value="chonlop">--Chọn lớp--</option>
+                        <option value="Lớp 1">Lớp 1</option>
+                        <option value="Lớp 2">Lớp 2</option>
+                        <option value="Lớp 3">Lớp 3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="op">Email</td>
+                <td colspan="4"><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td class="op">Điện thoại</td>
+                <td colspan="4"><input type="number" name="phone"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2">
+                    <button>Đăng ký</button>
+                </td>
+                <td colspan="2"><input type="reset" name="reset" value="Nhập lại"></td>
+            </tr>
+       </form>
+    </table>
+</body>
+</html>

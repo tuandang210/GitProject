@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sothich</title>
+    <style>
+        .op {
+            color:blue;
+            text-align: right;
+        }
+        .qt {
+            color: orange;
+        }
+        table {
+            border: 10px solid lightblue;
+        }
+    </style>
+
+</head>
+<body>
+    <table style=" font-family:Arial; height: 200px; width: 400px">
+        <form>
+            <tr>
+                <td colspan="7" style="color: white;background-color: orangered; text-align: center"> SỞ THÍCH CỦA BẠN</td>
+            </tr>
+            <tr>
+                <td class="op">Họ và tên</td>
+                <td colspan="6">
+                    <input type="text" name="yourname" size="20">
+                </td>
+
+            </tr>
+            <tr>
+                <td class="op">Email</td>
+                <td colspan="6">
+                    <input type="text" name="email" size="15">
+                </td>
+
+            </tr>
+            <tr>
+                <td class="op">Sở thích</td>
+                <td style="">
+                    <input type="checkbox" name="hobby">
+                </td>
+                <td class="qt"> Thể thao</td>
+                <td>
+                    <input type="checkbox" name="hobby">
+                </td>
+                <td class="qt">Âm nhạc</td>
+                <td>
+                    <input type="checkbox" name="hobby">
+                </td>
+                <td class="qt">Đọc sách</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <input type="checkbox" name="hobby"></td>
+                <td class="qt">Lướt web</td>
+                <td> <input type="checkbox" name="hobby"></td>
+                <td class="qt">Chơi game</td>
+                <td> <input type="checkbox" name="hobby"></td>
+                <td class="qt">Điện ảnh</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <input type="checkbox" name="hobby"></td>
+                <td class="qt">Du lịch</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2"> <input type="submit" name="submitform" value="Gửi thông tin"></td>
+                <td colspan="4"> <input type="reset" name="resetform" value="Nhập lại"></td>
+
+
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
